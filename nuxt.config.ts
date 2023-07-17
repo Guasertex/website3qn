@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     "quasar/icons",
     "quasar/css",
   ],
+  build: {
+    transpile: ['quasar']
+  },
   unocss: {
     uno: true,
     attributify: true,
